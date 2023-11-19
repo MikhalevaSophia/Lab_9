@@ -92,7 +92,7 @@ namespace grafica
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            listBox1.Items.AddRange(File.ReadAllLines("C:\\Users\\mi\\source\\repos\\LR9_C\\city.txt"));
+            listBox1.Items.AddRange(File.ReadAllLines("C:\\Users\\mi\\source\\repos\\lab9_2\\city.txt"));
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
